@@ -1,45 +1,53 @@
-🥤 Vending Machine Management System (C Language)
-A console-based vending machine simulation developed in C for our Data Structures coursework (Semester 3), submitted around June–July 2024. The project demonstrates how arrays can be effectively used to manage inventory, transactions, and payment systems in a real-world scenario.
+🥤 Vending Machine Management System in C
+A console-based vending machine simulation developed in C for our 3rd-semester Data Structures coursework. This project showcases the practical application of arrays for managing inventory, transactions, and a simple payment system.
 
-👥 Team Members
-Syed Nafish Shakir (me)
+Submitted: June–July 2024
+
+🔧 Key Features
+The system is divided into two main operational modes: Owner and Customer.
+
+🛠️ Owner Operations
+Add New Items: Introduce new drinks to the vending machine's inventory, limited by a MAX_ITEMS constant.
+
+Restock Inventory: Easily replenish the stock of any drink item.
+
+View Inventory: Display a complete list of all items, their prices, and current stock levels.
+
+Track Earnings: Monitor the total revenue generated from all sales.
+
+🎯 Customer Operations
+Browse Products: View a clean, up-to-date menu of available drinks with their prices.
+
+Purchase Drinks: Select one or more items to purchase in a single transaction.
+
+Handle Payments: The system accepts payment and accurately calculates and returns the correct change.
+
+Simulated Change: Provides a breakdown of the change returned in simulated coin denominations.
+
+💡 Technical Details
+This project was built from the ground up to demonstrate core programming principles.
+
+Language: C
+
+Core Concepts Applied:
+
+Data Structures: Logic is built entirely on arrays for data management.
+
+Modular Design: Organized with distinct functions for each operation (e.g., displayMenu(), purchaseItem(), restock()).
+
+Control Flow: Utilizes loops and conditionals for menu navigation and decision-making.
+
+Input Validation: Ensures the program can handle invalid user inputs gracefully.
+
+👥 Project Contributors
+Team Members
+Syed Nafish Shakir
 
 Tanmoy Sarker
 
 James Cyrus Gomes
 
 👩‍🏫 Faculty Advisor
-Humayara Binte Rashid Lecturer, Dept. of CSE, NDUB (Notre Dame University Bangladesh)
+Humayara Binte Rashid
 
-🔧 Key Features
-🛠 Owner Operations
-
-Add new drink items (limited by MAX_ITEMS)
-
-Restock items with maximum stock restrictions
-
-View current stock and price list
-
-🎯 Customer Operations
-
-Browse available drinks with prices and stock
-
-Select and purchase drinks
-
-Payment handling with proper change calculation
-
-Simulated coin breakdown for returned change
-
-💡 Project Highlights
-Clean modular structure using functions for operations
-
-Core logic built entirely on arrays for data handling
-
-Intuitive menu system with input validation
-
-Tracks and displays total earnings from sales
-
-📌 Technologies Used
-Language: C
-
-Concepts Applied: Arrays, Functions, Loops, Conditionals, Constants, Input Validation
+Lecturer, Dept. of CSE, Notre Dame University Bangladesh (NDUB)
